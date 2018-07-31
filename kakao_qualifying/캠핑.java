@@ -1,4 +1,4 @@
-package 알고리즘스터디.카카오예선문제;
+package AlgoStudyGroup.kakao_qualifying;
 
 public class 캠핑 {
 

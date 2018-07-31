@@ -1,4 +1,4 @@
-package 알고리즘스터디.카카오예선문제;
+package AlgoStudyGroup.kakao_qualifying;
 
 import java.util.Arrays;
 
@@ -7,8 +7,6 @@ public class 카카오프랜즈컬러링북 {
   /*
   1. 0이 아닌 영역을 찾는다
   2.
-
-
   */
 
   boolean[][] checkPicture = new boolean[101][101];

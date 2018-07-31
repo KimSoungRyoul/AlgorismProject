@@ -1,9 +1,9 @@
-package 알고리즘스터디.카카오예선문제.test;
+package AlgoStudyGroup.kakao_qualifying.test;
 
 import static org.junit.Assert.assertEquals;
 
+import AlgoStudyGroup.kakao_qualifying.카카오프랜즈컬러링북;
 import org.junit.Test;
-import 알고리즘스터디.카카오예선문제.카카오프랜즈컬러링북;
 
 public class 컬러링북테스트 {
 

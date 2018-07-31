@@ -1,4 +1,4 @@
-package 알고리즘스터디.카카오예선문제;
+package AlgoStudyGroup.kakao_qualifying;
 
 public class 보행자천국 {
 
@@ -60,6 +60,7 @@ public class 보행자천국 {
 
           dpArr_right[col][ro] = 0;
           dpArr_down[col][ro] = 0;
+
           //  System.out.println(dpArr_right[col][ro] + ", " + dpArr_down[col][ro]);
         }
       }

@@ -1,4 +1,4 @@
-package 알고리즘스터디;
+package AlgoStudyGroup;
 /*
 
 문제 설명
