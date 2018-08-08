@@ -55,7 +55,7 @@ output
 
 */
 
-public class 삼성구슬탈출문제 {
+public class 삼성구슬탈출문제_DFS {
 
   static Map<String, Node> nodeMap = new HashMap<>();
 
