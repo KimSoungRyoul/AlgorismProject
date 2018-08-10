@@ -40,13 +40,17 @@ public class ACMCraft_위상정렬 {
 
     Queue<Node> nodeQueue = new LinkedList<>();
 
-    System.out.println("ddd: " + destinationNodeNum);
+    //System.out.println("ddd: " + destinationNodeNum);
     int[] result = new int[nodeSize + 1];
 
     for (int i = 1; i <= nodeSize; i++) {
       Node node = nodeMap.get(i);
       if (node.targetNodeCnt == 0) {
-        result[node.nodeNum] += node.buildTime;
+
+        //두개 차이없음..
+        //result[node.nodeNum] += node.buildTime;
+        result[node.nodeNum] = Math.max(result[node.nodeNum], node.buildTime);
+
         nodeQueue.add(node);
       }
     }
@@ -102,7 +106,7 @@ public class ACMCraft_위상정렬 {
       for (int k = 1; k < buildRuleCnt + 1; k++) {
         int startNode = sc.nextInt();
         int endNode = sc.nextInt();
-        // linkedArr[k]=new int[]{Integer.parseInt(pair[0],Integer.parseInt(pair[1]))};
+
         Node node1 = nodeMap.get(startNode);
         node1.linkedNodeNum.add(endNode);
         nodeMap.put(startNode, node1);
