@@ -43,7 +43,7 @@ public class 기본포맷 {
       //double result = Double.parseDouble(String.format("%.3f", (double)(persent / size * 100)));
       double result = Math.round(persent * 100) / 100.0 / size * 100;
 
-      DecimalFormat df = new DecimalFormat("##########0.000");
+      DecimalFormat df = new DecimalFormat("##########0.0");
       if (df.format(result).equals(".000")) {
         bw.write("0.000%");
         if (!(n - 1 == i)) {
