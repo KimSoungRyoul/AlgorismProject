@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.text.DecimalFormat;
 
-public class 기본포맷 {
+public class 소수점만지는소스코드_참고용 {
 
   public static String soluntion(String input) {
 
